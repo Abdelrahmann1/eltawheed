@@ -1,0 +1,94 @@
+
+.home-b::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/serv2.jpg");
+
+    background-repeat: round;
+    /* background-attachment: fixed; */
+    background-blend-mode: color;
+    filter: brightness(55%);
+}
+
+h1{
+    width: fit-content !important;
+}
+.home-b {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+
+}
+
+
+.home-b-title {
+    font-weight: 600;
+    font-size: 45px;
+    width: 50%;
+    filter: brightness(100%);
+
+    color: white;
+}
+
+
+@media (max-width: 1013px) {
+    .home-b {
+        position: relative;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .home-b-title {
+        font-size: 30px;
+        width: 100%;
+        color: white;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 550px) {
+    .home-b {
+        position: relative;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .home-b-title {
+        font-size: 25px;
+        width: 100%;
+        color: white;
+    }
+
+}
+@media (max-width: 767px) {
+    .plastic-page-text{
+        font-size: 18px !important;
+        margin: 1rem 0;
+    }
+    .petro-img{
+        width: 100% !important;
+        }
+}
+.plastic-page-text{
+    font-weight: 400;
+    font-size: 25px;
+}
+.plastic-img{
+    width: 100%;
+}
+.petro-img{
+width: 90%;
+}

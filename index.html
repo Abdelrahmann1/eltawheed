@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- First, include Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+  <!-- Then, include Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <div class="container-fluid">
+        <button class="btn btn-re" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-justify"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="./plastic/plastic.html">Plastic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./petro/petro.html">Petroleum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./importing/importing.html">Importing & Exporting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./automation/automation.html">Automation</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <button class="btn btn-lang"onclick="location.href= './ar/index.html'">اللغه العربيه</button>
+                <button class="btn btn-contact" onclick="location.href= './contact_us/contact-us.html'">contact
+                    us</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <a href="../index.html">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Home</h5>
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div>
+            <a class="nav-link-coll" href="./plastic/plastic.html">Plastic</a>
+            <a class="nav-link-coll" href="./petro/petro.html">Petroleum</a>
+            <a class="nav-link-coll" href="./importing/importing.html">Importing & Exporting</a>
+            <a class="nav-link-coll" href="./automation/automation.html">Automation</a>
+            <div class="d-flex">
+              <button class="btn btn-lang-canv "onclick="location.href= './ar/index.html'">اللغه العربيه</button>
+              <button class="btn btn-contact" onclick="location.href= './contact_us/contact-us.html'">contact
+                  us</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="home-b" id="home">
+    <div class="info">
+      <h1 class="home-b-title">Connecting Markets, trading Fueling Progress and other service </h1>
+      <h3 class="home-b-desc"> Your Gateway to Global Trade and Energy Solutions Bridging Continents, Empowering
+        Industries: Your Partner in Global Trade and Petroleum Services</h3>
+      <a href="#About">
+        <button class="btn btn-home-b">Get Started</button>
+      </a>
+    </div>
+  </div>
+
+<!-- 
+  <div class="About " id="About">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7 col-sm-12">
+          <h1 class="About-title">About Us </h1>
+          <h3 class="About-desc"> Al Tawhied was founded in 1999 with the first plastic forming production line to produce and manufacture thin-walled plastic parts, as well as plastic containers, jerry cans, and bottles, using the most up-to-date scientific methods available at the time, believing that the first half of any job is the most difficult. Then, for the first few years, Al Tawhied Company developed its plastic forming equipment from injection machines and blowing machines due to our emphasis on quality, developing plastic products, establishing balanced relationships with successful partners, and providing distinguished service in a harmonious work environment.
+            During the early years of the company's operation, and in accordance with the managers' collective visions, import and export activities were launched as one of the company's main commercial activities to meet the needs of local and international markets through exports or imports in accordance with the General Organization for Export and Import Control. We recognise that Egyptian products should always be at the top of the export and import lists.
+            In order to expand Al Tawhied Company's commercial activities, the company was appointed as the agent of Misr Petroleum Products Marketing Company in 2011 in order to develop and diversify the company's commercial activities in petroleum products trading and to witness another expansion aimed at providing better products and services that customers and partners rely on for success.
+            </h3>
+          <h1 class="About-2-title">Mission </h1>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="check">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="#B69258"
+                    class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                  </svg>
+                  <h3 class="mission-text">We strive to stay ahead of the global market and achieve leadership and excellence in the numerous domains in which we deliver products and services in Egypt and abroad, in a collaborative spirit, while taking into account the needs of all of our customers and perfecting our work and propel the company to the forefront of the local and regional economies.</h3>
+                </div>
+                <div class="check">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="#B69258"
+                    class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                  </svg>
+                  <h3 class="mission-text">We have a moral and practical message in all sectors of Al Tawhied Company that amateurs hope and professionals work, so we are not afraid to take great and large steps in opening new markets to provide distinguished services and products.</h3>
+                </div>
+           
+              </div>
+             
+            </div>
+            <div class="col-4"></div>
+          </div>
+
+        </div>
+        <div class="col-lg-5  col-sm-12">
+          <div class="images-sec-sec">
+            <div class="images-sec-sec-s">
+
+              <img src="assets/sec-sec2.png" class="sec-sec-2" alt="">
+              <img src="assets/sec-sec1.jpg" class="sec-sec-1" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="service ">
+    <img src="assets/Vector.png" class="vector-sec" alt="">
+    <div class="container-fluid">
+      <div class="row serv-row">
+        <!-- <hr class="serv-hr"> -->
+        <div style="border-top: 1px solid #000; width: 4%;"></div>
+
+        <h1 class="service-title">Our Service </h1>
+
+      </div>
+      <div class="container text-center">
+        <div class="row services w-100">
+          <div class="col-lg-3 col-sm-6 cardaya">
+
+            <div class="overlay"></div>
+            <img src="assets/serv1.jpg" class="cardaya-img" alt="">
+            <p class="cardaya-t">Importing & Exporting</p>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 cardaya">
+
+            <div class="overlay"></div>
+            <img src="assets/serv2.jpg" class="cardaya-img" alt="">
+            <p class="cardaya-t">Plastic</p>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 cardaya">
+
+            <div class="overlay"></div>
+            <img src="assets/serv3.jpg" class="cardaya-img" alt="">
+            <p class="cardaya-t">Petroleum</p>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 cardaya">
+
+            <div class="overlay"></div>
+            <img src="assets/serv4.jpg" class="cardaya-img" alt="">
+            <p class="cardaya-t">Automation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- 
+  <div class="shipping">
+    <div class="info-shipping">
+      <h3 class="shipping-desc"> Trusted logistics company in Egypt</h3>
+      <h1 class="shipping-title">We Give You Complete Control Of Your Trading</h1>
+      <a href="#contact">
+        <button class="btn btn-shipping" onclick="location.href= './contact_us/contact-us.html'">Contact Us</button>
+      </a>
+    </div>
+  </div>
+
+
+
+ -->
+
+<!-- 
+
+  <div class="choose m-2" id="choose">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7 col-sm-12 col-md-12">
+          <div class="row serv-row">
+            <div style="border-top: 1px solid #000; width: 6%;"></div>
+
+            <h1 class="service-title">Why choose us</h1>
+          </div>
+          <div class="many-card-choose">
+            <div class="card-choose">
+              <h1 class="card-choose-text">TRUST WORTHINESS</h1>
+              <h1 class="card-choose-desc">Working in the industry for many years,our company trustworthiness has built
+                us a solid reputation!</h1>
+            </div>
+            <div class="card-choose">
+              <h1 class="card-choose-text">TRUST WORTHINESS</h1>
+              <h1 class="card-choose-desc">Working in the industry for many years,our company trustworthiness has built
+                us a solid reputation!</h1>
+            </div>
+            <div class="card-choose">
+              <h1 class="card-choose-text">TRUST WORTHINESS</h1>
+              <h1 class="card-choose-desc">Working in the industry for many years,our company trustworthiness has built
+                us a solid reputation!</h1>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <div class="images-choose">
+            <div class="background-choose"></div>
+            <img src="assets/crone.png" class="choose-img" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+
+
+
+
+
+  <div class="get " id="Get">
+    <img src="assets/Vector.png" class="vector-sec" alt="">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6  col-sm-12">
+          <div class="images-get">
+            <img src="assets/get.png" class="get-img" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h1 class="get-title">Get in touch </h1>
+          <h3 class="get-desc">Please leave your message and we will contact you as soon as possible. Your participation
+            is important to us </h3>
+          <form class="form-get" id ="myForm" id="myForm">
+            <div class="form-floating">
+              <input type="text"  class="form-control" id="floatingPassword" placeholder="Name">
+              <label for="floatingPassword" class="get-label">Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="email"  class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" class="get-label">Email address</label>
+            </div>
+
+
+            <div class="form-floating">
+              <textarea class="form-control"  placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2" class="get-label">Subject</label>
+            </div>
+
+
+
+            <button class="btn btn-get">Send</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+
+</script>
+
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.963170860942!2d31.143019615119!3d30.209598581822497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458699c05fd5ef9%3A0x1a965a893bef5e1a!2z2YXYrdi32Kkg2KfZhNiq2YjYrdmK2K8g2YTYqtmF2YjZitmGINmI2K7Yr9mF2Kkg2KfZhNiz2YrYp9ix2KfYqiDYqNmF2YrYr9in2YYg2KfZhNmI2YLZgQ!5e0!3m2!1sen!2seg!4v1640543762968!5m2!1sen!2seg" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary ">
+    <!-- Section: Social media -->
+
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-sm-6 col-lg-2 col-xl-2 mx-auto mb-4 footer-linkat">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 foot-title">
+              Company
+            </h6>
+            <p>
+              <a href="#home" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt="" class="icon-foot"> Home</a>
+            </p>
+            <p>
+              <a href="./contact_us/contact-us.html" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt="" class="icon-foot"> Contact
+                us</a>
+            </p>
+            <p>
+              <a href="#About" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt="" class="icon-foot"> About
+                us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-sm-6 col-xl-2 mx-auto mb-4 footer-linkat">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 foot-title">
+              Service
+            </h6>
+            <p>
+              <a href="./petro/petro.html" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt="" class="icon-foot">
+                Petroleum</a>
+            </p>
+            <p>
+              <a href="./plastic/plastic.html" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt="" class="icon-foot">
+                Plastic</a>
+            </p>
+            <p class="foot-link-imp">
+              <a href="./importing/importing.html" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt="" class="icon-foot">
+                Importing & Exporting </a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class=" fw-bold mb-4 foot-title">Quick contact</h6>
+            <div class="quick-c">
+              <a href="tel:+202004142533">
+                <div class="foot-p">
+                  <img src="assets/call.png" alt="">
+                  <p class="foot-desc"> + 202004142533</p>
+                </div>
+              </a>
+              <a href="">
+                <div class="foot-p">
+                  <img src="assets/Location.png" alt="">
+                  <p class="foot-desc">Head Office Address : El Waqf sq., El Qanater El Khayriah, El Qalubiah, Egypt</p>
+                </div>
+              </a>
+              <a href="mailto:support@altawhied.com">
+                <div class="foot-p">
+                  <img src="assets/Down Square 2.png" style="border-radius: 0 !important;" alt="">
+                  <p class="foot-desc">support@altawhied.com
+                  </p>
+                </div>
+              </a>
+              </p>
+            </div>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 foot-title">
+              Social media
+            </h6>
+            <a href="https://www.facebook.com/AlTawhiedGroup/" target="_blank">
+              <div class="foot-fb">
+                <img src="assets/Group.png" style="border-radius: 0 !important; height: 30px;" alt="">
+                <p class="foot-desc"> FaceBook.com/Eltawhied</p>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  </footer>
+  <!-- Footer -->
+
+
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.3/dist/email.min.js">
+</script>
+
+  <script src="./js/email.js"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
