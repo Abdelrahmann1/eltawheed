@@ -241,6 +241,9 @@ img {
 
 
 @media (max-width: 1013px) {
+    .imgfoot >img{
+        width: 11rem  !important;
+    }
     .home-b {
         position: relative;
         height: 50vh;
@@ -767,6 +770,7 @@ footer {
 }
 
 @media (max-width:767px) {
+    
     .footer-linkat {
         width: 49%;
     }
@@ -848,6 +852,7 @@ footer {
         width: 100% !important;
     }
     
+    
 .card {
     width: 9rem;
     flex: 0 0 auto;
@@ -869,4 +874,8 @@ video {
     overflow-x: hidden !important; /* Prevent scrolling */
 
     object-fit: cover; /* Ensures the video covers the entire container */
+}
+.imgfoot >img{
+    margin-top: 1rem;
+    width: 15rem;
 }
