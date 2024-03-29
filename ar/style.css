@@ -2,6 +2,7 @@ body {
     /* font-family:'Poppins'; */
     /* font-weight: 500; */
     text-align: end;
+    overflow-x: hidden;
 }
 input::placeholder{
     text-align: end !important;
@@ -257,7 +258,7 @@ img {
         width: 100%;
     }
      video {
-        width: 100vw !important;
+        height: 100% !important;
       }
     .btn-home-b {
         background-color: white;
@@ -868,13 +869,14 @@ footer {
     /* Add some spacing between cards if needed */
 }
 }
-source ,video {
+video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 99vw ;
-    /* height: 100vh; */
-    z-index:0;
+    width: 100vw; /* Use width instead of min-width for stretching */
+    height: 100% !important; /* Use height instead of max-height for stretching */
+    z-index: 0;
+    overflow-x: hidden !important; /* Prevent scrolling */
 
-    /* display: none; */
-  }
+    object-fit: cover; /* Ensures the video covers the entire container */
+}

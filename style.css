@@ -1,6 +1,8 @@
 body {
     /* font-family:'Poppins'; */
     /* font-weight: 500; */
+    overflow-x: hidden; /* Prevent scrolling */
+
 }
 
 a,
@@ -261,7 +263,7 @@ img {
         color: white;
     }
 video > source ,video {
-width: 100vw !important;
+height: 100% !important;
 }
 
     .home-b-desc {
@@ -854,14 +856,17 @@ footer {
     /* Add some spacing between cards if needed */
 }
 }
+.home-b{
+position: relative;}
 
-
-video > source ,video {
+video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 99vw ;
-    /* height: 100vh !important; */
-    z-index:0;
-    /* display: none; */
-  }
+    width: 100vw; /* Use width instead of min-width for stretching */
+    height: 100% !important; /* Use height instead of max-height for stretching */
+    z-index: 0;
+    overflow-x: hidden !important; /* Prevent scrolling */
+
+    object-fit: cover; /* Ensures the video covers the entire container */
+}
