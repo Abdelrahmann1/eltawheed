@@ -40,18 +40,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="d-flex">
-                <button class="btn btn-contact" onclick="location.href= '#'">تواصل معنا</button>
+                <div class="themainlogodiv">
+                  <img src="../../assets/logomain.jpeg"class="themainlogo" alt="">
+                </div>
+          <div class="d-flex align-items-center ">
+            <button class="btn btn-contact" onclick="location.href= '#'">تواصل معنا</button>
+            </div>
                 <button class="btn btn-lang" onclick="location.href= '../../contact_us/contact-us.html'">English</button>
               </div>
               <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link"disabled  href="#">تشغيل ألي</a>
+                  <a class="nav-link"disabled  href="#">أتمتة محطات الوقود</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../importing/importing.html">تصدير والاستيراد</a>
+                  <a class="nav-link" href="../importing/importing.html">الإستيراد والتصدير</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../petro/petro.html">خدمات البترولية</a>
+                  <a class="nav-link" href="../petro/petro.html">تجارة مواد بترولية</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="../plastic/plastic.html">البلاستيك </a>
@@ -73,12 +78,15 @@
         <div class="offcanvas-body">
             <div>
               <a class="nav-link-coll" href="../plastic/plastic.html">البلاستيك</a>
-              <a class="nav-link-coll" href="../petro/petro.html">خدمات البترولية</a>
-              <a class="nav-link-coll" href="../importing/importing.html">تصدير والاستيراد</a>
-              <a class="nav-link-coll" href="#">تشغيل ألي</a>
+              <a class="nav-link-coll" href="../petro/petro.html">تجارة مواد بترولية</a>
+              <a class="nav-link-coll" href="../importing/importing.html">الإستيراد والتصدير</a>
+              <a class="nav-link-coll" href="#">أتمتة محطات الوقود</a>
               <div class="d-flex">
                 <button class="btn btn-lang-canv "onclick="location.href= '../index.html'"> English</button>
                 <button class="btn btn-contact" onclick="location.href= '#'">تواصل معنا</button>
+                </div>
+                <div class="themainlogodiv2">
+                  <img src="./assets/logomain.jpeg"class="themainlogo2" alt="">
                 </div>
             </div>
         </div>
@@ -149,6 +157,12 @@
                 <input type="email" required class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput" class="get-label">البريد الالكتروني</label>
               </div>
+              <select class="form-select"name="subject" id="subjectinput" required >
+                <option value="Plastic">البلاستيك</option>
+                <option value="Petroleum Products Trading">تجارة مواد بترولية</option>
+                <option value="Importing & Exporting">الإستيراد والتصدير</option>
+                <option value="Automation">أتمتة محطات الوقود</option>
+              </select>
   
               <div class="form-floating">
                 <textarea class="form-control" required placeholder="Leave a comment here" id="floatingTextarea2"

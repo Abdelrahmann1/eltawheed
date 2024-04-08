@@ -55,7 +55,7 @@
             <a class="nav-link " href="./plastic/plastic.html">Plastic</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./petro/petro.html">Petroleum</a>
+            <a class="nav-link" href="./petro/petro.html">Petroleum Products Trading</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./importing/importing.html">Importing & Exporting</a>
@@ -66,8 +66,13 @@
         </ul>
         <div class="d-flex">
           <button class="btn btn-lang" onclick="location.href= './ar/index.html'">اللغه العربيه</button>
-          <button class="btn btn-contact" onclick="location.href= './contact_us/contact-us.html'">contact
-            us</button>
+          <div class="d-flex align-items-center ">
+            <button class="btn btn-contact" onclick="location.href= './contact_us/contact-us.html'">contact
+              us</button>
+          </div>
+            <div class="themainlogodiv">
+              <img src="./assets/logomain.jpeg"class="themainlogo" alt="">
+            </div>
         </div>
       </div>
     </div>
@@ -82,14 +87,17 @@
     <div class="offcanvas-body">
       <div>
         <a class="nav-link-coll" href="./plastic/plastic.html">Plastic</a>
-        <a class="nav-link-coll" href="./petro/petro.html">Petroleum</a>
+        <a class="nav-link-coll" href="./petro/petro.html">Petroleum Products Trading</a>
         <a class="nav-link-coll" href="./importing/importing.html">Importing & Exporting</a>
         <a class="nav-link-coll" href="#">Automation</a>
         <div class="d-flex">
           <button class="btn btn-lang-canv " onclick="location.href= './ar/index.html'">اللغه العربيه</button>
           <button class="btn btn-contact" onclick="location.href= './contact_us/contact-us.html'">contact
             us</button>
-        </div>
+          </div>
+          <div class="themainlogodiv2">
+            <img src="./assets/logomain.jpeg"class="themainlogo2" alt="">
+          </div>
       </div>
     </div>
   </div>
@@ -164,18 +172,11 @@
         <!-- <hr class="serv-hr"> -->
         <div style="border-top: 1px solid #000; width: 4%;"></div>
 
-        <h1 class="service-title">Our Service </h1>
+        <h1 class="service-title">Activities and services </h1>
 
       </div>
       <div class="container text-center">
         <div class="row services w-100">
-          <div class="col-lg-3 col-sm-6 cardaya">
-
-            <div class="overlay"></div>
-            <img src="assets/serv1.jpg" class="cardaya-img" alt="">
-            <p class="cardaya-t">Importing & Exporting</p>
-          </div>
-
           <div class="col-lg-3 col-sm-6 cardaya">
 
             <div class="overlay"></div>
@@ -187,8 +188,15 @@
 
             <div class="overlay"></div>
             <img src="assets/serv3.jpg" class="cardaya-img" alt="">
-            <p class="cardaya-t">Petroleum</p>
+            <p class="cardaya-t">Petroleum Products Trading</p>
           </div>
+          <div class="col-lg-3 col-sm-6 cardaya">
+
+            <div class="overlay"></div>
+            <img src="assets/serv1.jpg" class="cardaya-img" alt="">
+            <p class="cardaya-t">Importing & Exporting</p>
+          </div>
+
 
           <div class="col-lg-3 col-sm-6 cardaya">
 
@@ -286,7 +294,12 @@
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput" class="get-label">Email address</label>
             </div>
-
+            <select class="form-select"name="subject" id="subjectinput" required >
+              <option value="Plastic">Plastic</option>
+              <option value="Petroleum Products Trading">Petroleum Products Trading</option>
+              <option value="Importing & Exporting">Importing & Exporting</option>
+              <option value="Automation">Automation</option>
+            </select>
 
             <div class="form-floating">
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
@@ -389,7 +402,7 @@
             <p>
               <a href="./petro/petro.html" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt=""
                   class="icon-foot">
-                Petroleum</a>
+                  Petroleum Products Trading</a>
             </p>
             <p>
               <a href="./plastic/plastic.html" class="text-reset foot-desc"> <img src="assets/Iconly.png" alt=""

@@ -1,23 +1,3 @@
-
-//   emailjs.init('j6X6rPwNM8HTip-uO');
-
-//   function send() {
-//     var templateParams = {
-//       name: 'blackatem',
-//       email: 'sakjgdsa@kjsdgj',
-//       subject: 'Check thssis out!',
-//     };
-
-//     emailjs.send('service_1ye5xn6', 'template_7121uuw', templateParams).then(
-//       (response) => {
-//         console.log('SUCCESS!', response.status, response.text);
-//       },
-//       (error) => {
-//         console.log('FAILED...', error);
-//       },
-//     );
-//   }
-
 document.getElementById('myForm').addEventListener('submit', function (event) {
   emailjs.init('W3zr3blqoFWLQ5s71');
 
@@ -25,7 +5,8 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     var templateParams = {
         name: document.getElementById('floatingPassword').value,
         email: document.getElementById('floatingInput').value,
-        subject: document.getElementById('floatingTextarea2').value
+        message: document.getElementById('floatingTextarea2').value,
+        subject: document.getElementById('subjectinput').value,
     };
 
     emailjs.send('service_1ye5xn6', 'template_7121uuw', templateParams).then(
