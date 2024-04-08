@@ -950,3 +950,12 @@ border: 1px rgb(207, 207, 207) solid;
     display: block;
     height: 20vh !important;
 }
+.footer-linkat >p ,.foot-link-imp,.quick-c > a >div ,.foot-desc,.footer-linkat >h6{
+    text-align: end !important;
+    justify-content: end;
+    width: 100%;
+}
+.icon-foot{
+    transform: rotate(180deg);
+    padding: 0;
+}
