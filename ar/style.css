@@ -112,6 +112,7 @@ img {
     font-weight: 600;
     color: white;
     font-size: 20px;
+    height: fit-content;
     margin: 10px 0 0px 0;
     display: block;
     text-align: center;
@@ -866,7 +867,10 @@ footer {
     .serv-row{
         width: 100% !important;
     }
-    
+       
+.dis-app{
+    display: none !important;   
+   }
 .card {
     width: 9rem;
     flex: 0 0 auto;
@@ -940,7 +944,7 @@ border: 1px rgb(207, 207, 207) solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8vh !important;
+    height: 12vh !important;
     margin: .5rem 0 0 1rem;
 }
 .themainlogo,.themainlogo2{
