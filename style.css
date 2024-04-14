@@ -910,7 +910,9 @@ border: 1px rgb(207, 207, 207) solid;
     border-radius:  0 !important;
 }
 @media (max-width: 767px) {
-    
+    .get-st{
+        justify-content: center !important;
+        }
 .dis-app{
  display: none !important;   
 }
@@ -947,4 +949,9 @@ border: 1px rgb(207, 207, 207) solid;
 .themainlogodiv2{
     display: block;
     height: 20vh !important;
+}
+.get-st{
+display: flex;
+justify-content: flex-start;
+width: 100%;
 }

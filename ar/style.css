@@ -872,6 +872,9 @@ footer {
   }
 
 @media (max-width: 767px) {
+    .get-st{
+        justify-content: center !important;
+        }
     .serv-row{
         width: 100% !important;
     }
@@ -971,3 +974,8 @@ border: 1px rgb(207, 207, 207) solid;
     transform: rotate(180deg);
     padding: 0;
 }
+.get-st{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    }
