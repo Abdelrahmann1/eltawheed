@@ -75,6 +75,7 @@ img {
 
 .btn-re {
     margin: 1rem;
+    color: white !important;
 }
 
 .nav-link-coll {
@@ -128,8 +129,8 @@ img {
     color: white;
 }
 
-.btn-re {
-    display: none;
+.btn-re ,.secndlogo{
+    display: none !important;
 }
 
 /* .navbar-expand-lg .navbar-collapse {
@@ -138,8 +139,8 @@ img {
 } */
 /* Media query for tablets and smaller devices */
 @media (max-width: 991px) {
-    .btn-re {
-        display: block;
+    .btn-re,.secndlogo {
+        display: block !important;
     }
 
     .nav-link {
@@ -749,6 +750,8 @@ footer {
     color: #FFFFFF80 !important;
     text-decoration: none;
     text-align: start;
+    display: flex;
+    align-items: center;
     margin: 0 !important;
 }
 
